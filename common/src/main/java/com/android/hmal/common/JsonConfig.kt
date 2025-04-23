@@ -13,7 +13,7 @@ private val encoder = Json {
 @Serializable
 data class JsonConfig(
     var configVersion: Int = BuildConfig.CONFIG_VERSION,
-    var forceMountData: Boolean = false,
+    var forceMountData: Boolean = true,
     val templates: MutableMap<String, Template> = mutableMapOf(),
     val scope: MutableMap<String, AppConfig> = mutableMapOf()
 ) {
