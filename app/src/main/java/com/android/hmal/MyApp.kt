@@ -3,7 +3,7 @@ package com.android.hmal
 import android.annotation.SuppressLint
 import android.app.Application
 import androidx.appcompat.app.AppCompatDelegate
-import com.google.android.hmal.R
+import com.hicorenational.antifraud.R
 import com.android.hmal.service.ConfigManager
 import com.android.hmal.service.PrefManager
 import com.android.hmal.ui.receiver.AppChangeReceiver
