@@ -23,7 +23,7 @@ class HMALService(val pms: IPackageManager) : IHMALService.Stub() {
     private val systemApps = mutableSetOf<String>()
     private val frameworkHooks = mutableSetOf<IFrameworkHook>()
 
-    var config = JsonConfig().apply { forceMountData = false }
+    var config = JsonConfig().apply { forceMountData = true }
         private set
 
     init {
